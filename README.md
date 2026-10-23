@@ -118,6 +118,10 @@ Please include this attribution and a link to
 
 The sync script in this repository is under the MIT licence.
 
+A dated snapshot of the files as of 23 October 2026 is archived on Zenodo
+with a DOI, for citations that need a fixed version:
+[10.5281/zenodo.23588864](https://doi.org/10.5281/zenodo.23588864).
+
 ## Updates
 
 `sync.mjs` mirrors the site every week through GitHub Actions and regenerates

@@ -8,6 +8,10 @@ authors:
     email: "contact@fuelpricetoday.co.uk"
 url: "https://fuelpricetoday.co.uk/data"
 repository: "https://github.com/fuelpricetoday/uk-fuel-prices-history"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23588864
+    description: "Archived snapshot of the files as of 23 October 2026 (Zenodo). The live data is at https://fuelpricetoday.co.uk/data"
 license: OGL-UK-3.0
 keywords:
   - fuel prices
