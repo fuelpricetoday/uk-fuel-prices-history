@@ -129,16 +129,33 @@ const datapackage = {
 await writeFile(join(ROOT, "datapackage.json"), `${JSON.stringify(datapackage, null, 2)}\n`);
 
 // --- Kaggle reads its metadata from the uploaded folder itself.
+const FILES = {
+  "uk-daily.csv": "UK average unleaded and diesel price for each day, with the number of stations behind each average and the number of price changes.",
+  "towns-daily.csv": "Average and lowest unleaded and diesel price in each town, for each day, with the number of stations behind each figure.",
+  "stations.csv": "Every filling station in the feed: identifier, cleaned name and brand, address, postcode, nation, coordinates, motorway and supermarket flags, services, first and last day seen.",
+};
+const describe = (name) => {
+  const m = MONTH.exec(name);
+  return FILES[name] ?? (m ? `Every price at every station for each day of ${m[1]}: one row per station, fuel and day, with the time the retailer last changed it.` : "");
+};
 const kaggle = {
   id: process.env.KAGGLE_DATASET ?? "fuelpricetoday/uk-fuel-prices-history",
   title: "UK Fuel Prices by Station, Daily",
   subtitle: "Every petrol and diesel price at UK filling stations, from the Fuel Finder feed",
   description: `${readme.slice(0, i).trim()}\n\n${generated}\n\n${ATTRIBUTION}`,
+  isPrivate: false,
   licenses: [{ name: "other" }],
+  expectedUpdateFrequency: "weekly",
+  userSpecifiedSources:
+    "Fuel Finder, Department for Energy Security and Net Zero (https://www.gov.uk/guidance/access-fuel-price-data), " +
+    "under The Motor Fuel Price (Open Data) Regulations 2025. Collected every three hours by fuelpricetoday.co.uk, " +
+    "which keeps one reading per station, fuel and day and publishes the files at https://fuelpricetoday.co.uk/data. " +
+    "Open Government Licence v3.0.",
   keywords: ["energy", "transportation", "time series analysis", "geospatial analysis"],
+  // Kaggle decompresses .gz files on upload and lists them without the suffix.
   resources: kept.map((f) => ({
-    path: f.nom,
-    description: `${fmt(f.lignes)} rows. Columns are described in the dataset description.`,
+    path: f.nom.replace(/\.gz$/, ""),
+    description: `${describe(f.nom)} ${fmt(f.lignes)} rows.`,
     schema: { fields: dictionary(f.nom).map(([c, d]) => ({ name: c, description: d })) },
   })),
 };
