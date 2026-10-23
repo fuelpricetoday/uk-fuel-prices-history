@@ -7,7 +7,7 @@ authors:
     website: "https://fuelpricetoday.co.uk"
     email: "contact@fuelpricetoday.co.uk"
 url: "https://fuelpricetoday.co.uk/data"
-repository: "https://github.com/jackydan/fuelpricetoday"
+repository: "https://github.com/fuelpricetoday/uk-fuel-prices-history"
 license: OGL-UK-3.0
 keywords:
   - fuel prices
