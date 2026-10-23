@@ -32,7 +32,8 @@ As of 2026-10-23: 631,357 daily station prices in 1 closed month, 8,143 filling 
 |---|---:|---:|---|
 | [`uk-daily.csv`](data/uk-daily.csv) | 47 | 2 KB | 2026-09-07 to 2026-10-23 |
 | [`towns-daily.csv`](data/towns-daily.csv) | 34,203 | 2.3 MB | 2026-09-07 to 2026-10-23 |
-| [`stations.csv`](data/stations.csv) | 8,143 | 2.9 MB | current |
+| [`stations.csv`](data/stations.csv) | 8,143 | 3.3 MB | current |
+| [`stations-changes.csv`](data/stations-changes.csv) | 123 | 25 KB | 2026-09-07 to 2026-10-23 |
 | [`history-2026-09.csv.gz`](data/history-2026-09.csv.gz) | 631,357 | 3.2 MB | 2026-09-07 to 2026-09-30 |
 
 The current month, updated every three hours, is on [fuelpricetoday.co.uk/data](https://fuelpricetoday.co.uk/data).
@@ -79,7 +80,7 @@ The averages are the ones drawn on fuelpricetoday.co.uk. They leave out motorway
 | `name` | Station name, with consistent capitalisation. |
 | `brand` | Brand, one spelling per brand. Blank for independents. |
 | `brand_raw` | Brand exactly as the retailer reported it. |
-| `address` | Address as reported. |
+| `address` | Address lines as reported, with consistent capitalisation. |
 | `town` | Town as shown on this site. |
 | `postcode` | Full postcode. |
 | `postcode_district` | Outward code, for example BA1. |
@@ -95,6 +96,27 @@ The averages are the ones drawn on fuelpricetoday.co.uk. They leave out motorway
 | `first_seen` | First day we recorded a price for the station. |
 | `last_seen` | Last day we recorded a price for the station. |
 | `page_url` | The station's page on this site. |
+| `fuels` | Fuel grades the station declares it sells, separated by semicolons (E10, E5, B7_STANDARD, B7_PREMIUM, B10, HVO). A grade missing here proves nothing. |
+| `opening_hours` | Opening hours in OpenStreetMap opening_hours syntax, converted from the feed. Blank when any day is not reported. |
+| `phone` | Public phone number, as reported. |
+| `coordinates_fix` | Blank when the position is as reported. swapped: latitude and longitude were inverted; longitude_sign: the sign was lost; both were corrected because only the corrected point falls in the UK. outside_uk: left as reported, and wrong. |
+
+### `stations-changes.csv`
+
+| Column | Meaning |
+|---|---|
+| `change` | arrival (first price reported), departure (no price for 7 days or more) or return (reporting again after such a gap). |
+| `date` | Arrival: first day with a price. Departure: last day with a price. Return: day it came back. |
+| `node_id` | Fuel Finder identifier, as in stations.csv. |
+| `name` | Station name. |
+| `brand` | Brand, one spelling per brand. Blank for independents. |
+| `town` | Town as shown on this site. |
+| `postcode` | Full postcode. |
+| `nation` | England, Scotland, Wales or Northern Ireland. |
+| `days` | Departure: days since the last price. Return: length of the absence, in days. |
+| `permanently_closed_on` | Departure: the date the feed gives for a permanent closure, when it gives one. |
+| `temporarily_closed` | Departure: 1 if the feed marked the station temporarily closed the last time we saw it. |
+| `page_url` | The station's page on this site, while it is in the feed. |
 
 ### `history-YYYY-MM.csv.gz`
 

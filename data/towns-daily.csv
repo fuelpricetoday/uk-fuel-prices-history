@@ -33498,7 +33498,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Antrim,antrim,Northern Ireland,167.5,163.9,5,191.7,190.9,5
 2026-10-23,Arbroath,arbroath,Scotland,170,169.6,4,197.8,196.6,4
 2026-10-23,Armagh,armagh,Northern Ireland,166.3,163.9,10,193.7,186.9,13
-2026-10-23,Ashbourne,ashbourne,England,172.9,172.9,1,,,
+2026-10-23,Ashbourne,ashbourne,England,172.9,172.9,2,198.9,198.9,1
 2026-10-23,Ashby-de-la-zouch,ashby-de-la-zouch,England,173.2,170.9,4,199.4,197.9,4
 2026-10-23,Ashford,ashford,England,177.7,175.9,13,201,198.9,15
 2026-10-23,Ashington,ashington,England,174.7,172.9,5,201.7,198.9,5
@@ -33519,7 +33519,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Banbury,banbury,England,174.3,169.9,8,198.3,195.9,7
 2026-10-23,Banchory,banchory,Scotland,172.2,171.9,3,199.2,198.9,3
 2026-10-23,Bangor,bangor,Northern Ireland,166.1,157.9,16,191.6,186.7,14
-2026-10-23,Barking,barking,England,172.7,170.9,5,194.7,190.9,5
+2026-10-23,Barking,barking,England,172.3,170.9,5,194.7,190.9,5
 2026-10-23,Barnet,barnet,England,171.9,169.9,6,199.3,197.9,5
 2026-10-23,Barnsley,barnsley,England,173.2,169.9,19,199.2,195.9,19
 2026-10-23,Barnstaple,barnstaple,England,169.8,168.7,9,195.5,191.7,9
@@ -33541,7 +33541,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Belper,belper,England,170.7,169.9,5,197.4,169.9,5
 2026-10-23,Benfleet,benfleet,England,176.3,170.9,5,201.7,199.9,5
 2026-10-23,Berwick-upon-tweed,berwick-upon-tweed,Scotland,172.6,171.9,3,199.6,196.9,3
-2026-10-23,Beverley,beverley,England,174.2,169.9,3,198.9,196.9,3
+2026-10-23,Beverley,beverley,England,173.9,169.9,3,198.6,196.9,3
 2026-10-23,Bexhill-on-sea,bexhill-on-sea,England,172.9,171.9,2,198.6,197.7,5
 2026-10-23,Bexleyheath,bexleyheath,England,174.6,173.9,3,201.2,199.9,3
 2026-10-23,Bicester,bicester,England,174.2,168.9,10,199.2,196.9,10
@@ -33562,7 +33562,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Bodmin,bodmin,England,176.3,173.7,6,199.7,196.7,6
 2026-10-23,Bognor Regis,bognor-regis,England,176.2,175.9,4,200.4,199.9,4
 2026-10-23,Bolton,bolton,England,171.1,167.9,25,195.6,189.9,22
-2026-10-23,Bootle,bootle,England,171.7,168.9,4,194.9,190.9,4
+2026-10-23,Bootle,bootle,England,170.7,164.9,4,194.2,190.9,4
 2026-10-23,Bordon,bordon,England,173.9,171.9,3,201.2,199.9,3
 2026-10-23,Borehamwood,borehamwood,England,171.9,169.7,6,197,194.7,6
 2026-10-23,Boston,boston,England,174.8,169.9,10,198.9,194.9,11
@@ -33616,14 +33616,14 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Carshalton,carshalton,England,179.2,178.9,3,204.2,203.9,3
 2026-10-23,Casnewydd,casnewydd,Wales,176.1,173.9,5,199.5,196.9,5
 2026-10-23,Castlederg,castlederg,Northern Ireland,175.5,171.9,2,199.6,198.9,3
-2026-10-23,Castleford,castleford,England,168.2,165.9,7,196.4,194.9,8
+2026-10-23,Castleford,castleford,England,168,164.9,7,196.4,194.9,8
 2026-10-23,Chatham,chatham,England,176,173.9,7,200.6,198.9,6
 2026-10-23,Chelmsford,chelmsford,England,175,165.9,18,201.2,195.7,15
 2026-10-23,Cheltenham,cheltenham,England,171.6,168.7,17,197.6,191.9,17
 2026-10-23,Chepstow,chepstow,Wales,171.2,169.9,3,198.1,196.7,4
 2026-10-23,Chertsey,chertsey,England,174.9,169.9,4,197.4,194.9,2
 2026-10-23,Chesham,chesham,England,174.9,174.9,3,201.9,201.9,3
-2026-10-23,Chester,chester,England,174.6,156.9,12,200.2,190.9,15
+2026-10-23,Chester,chester,England,174.4,156.9,12,200.1,190.9,15
 2026-10-23,Chester le Street,chester-le-street,England,172.9,168.9,3,199.4,198.9,2
 2026-10-23,Chesterfield,chesterfield,England,175.1,172.9,17,199.8,197.9,17
 2026-10-23,Chichester,chichester,England,176,170.9,7,199.8,196.9,8
@@ -33637,11 +33637,11 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Clevedon,clevedon,England,178.6,177.9,3,202.2,199.9,3
 2026-10-23,Clitheroe,clitheroe,England,175.7,174.9,5,199.9,199.7,5
 2026-10-23,Clydebank,clydebank,Scotland,175.6,173.9,3,201.2,199.9,3
-2026-10-23,Coalville,coalville,England,174.3,171.9,5,199.1,196.9,5
+2026-10-23,Coalville,coalville,England,173.9,171.9,5,198.9,196.9,5
 2026-10-23,Coatbridge,coatbridge,Scotland,171.9,169.9,5,199.9,195.7,5
 2026-10-23,Cobham,cobham,England,176.4,172.9,2,201.4,198.9,2
 2026-10-23,Colchester,colchester,England,176.4,169.9,22,199.8,195,20
-2026-10-23,Coleraine,coleraine,Northern Ireland,164.8,159.9,8,191.3,188.9,11
+2026-10-23,Coleraine,coleraine,Northern Ireland,164.4,159.9,8,191.3,188.9,11
 2026-10-23,Colne,colne,England,169.2,167.7,3,197.2,196.7,3
 2026-10-23,Colwyn Bay,colwyn-bay,Wales,176.9,176.9,3,202.4,201.9,2
 2026-10-23,Congleton,congleton,England,178.9,178.9,1,202.4,199.9,2
@@ -33649,9 +33649,9 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Cookstown,cookstown,Northern Ireland,165.9,163.9,12,191.1,186.9,12
 2026-10-23,Corby,corby,England,171.5,169.7,6,198.1,196.7,8
 2026-10-23,Corwen,corwen,Wales,172.9,172.9,1,201.5,197.9,2
-2026-10-23,Coventry,coventry,England,174.1,166.9,28,199.4,191.9,30
+2026-10-23,Coventry,coventry,England,173.9,166.9,28,199.3,191.9,30
 2026-10-23,Craigavon,craigavon,Northern Ireland,165.8,163.9,22,191.2,184.9,28
-2026-10-23,Cramlington,cramlington,England,169.6,168.9,3,197.2,195.9,3
+2026-10-23,Cramlington,cramlington,England,170.6,169.9,3,198.2,197.9,3
 2026-10-23,Craven Arms,craven-arms,England,173.2,164.9,4,196.7,189.9,5
 2026-10-23,Crawley,crawley,England,173.6,171.9,10,199.4,197.9,10
 2026-10-23,Crediton,crediton,England,178.2,176.9,3,199.6,198.9,3
@@ -33679,7 +33679,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Didcot,didcot,England,173.7,172.9,5,196.7,194.9,5
 2026-10-23,Dingwall,dingwall,Scotland,176.2,173.9,3,200.2,198.9,3
 2026-10-23,Diss,diss,England,176.8,175.5,4,201.9,199.9,3
-2026-10-23,Doncaster,doncaster,England,172.5,168.9,30,199.3,195.9,32
+2026-10-23,Doncaster,doncaster,England,172.5,168.9,30,199.2,195.9,32
 2026-10-23,Dorchester,dorchester,England,176.4,172.9,6,200.5,197.9,7
 2026-10-23,Dorking,dorking,England,176.4,174.9,4,200.2,198.9,4
 2026-10-23,Dover,dover,England,180.1,177.9,5,202.3,199.9,5
@@ -33695,7 +33695,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Dunmow,dunmow,England,176.9,176.9,1,199.9,199.9,1
 2026-10-23,Dunoon,dunoon,Scotland,171.6,163.9,3,198.6,195.9,3
 2026-10-23,Dunstable,dunstable,England,171.4,168.7,7,198.9,194.9,8
-2026-10-23,Durham,durham,England,171.3,169.9,8,198.5,194.9,9
+2026-10-23,Durham,durham,England,171.2,169.9,8,198.5,194.9,9
 2026-10-23,East Grinstead,east-grinstead,England,174.9,173.9,4,199.9,199.9,3
 2026-10-23,East Kilbride,east-kilbride,Scotland,171.2,169.9,3,197.9,196.9,3
 2026-10-23,Eastbourne,eastbourne,England,172.5,169.7,9,197.3,194.7,9
@@ -33710,7 +33710,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Ely,ely,England,174.3,171.7,8,200,196.7,9
 2026-10-23,Emsworth,emsworth,England,174.1,169.7,5,198.5,195.7,5
 2026-10-23,Enfield,enfield,England,171.2,165.9,13,198.2,194.9,12
-2026-10-23,Enniskillen,enniskillen,Northern Ireland,167.8,164.9,15,195.6,189.9,18
+2026-10-23,Enniskillen,enniskillen,Northern Ireland,167.7,164.9,15,195.7,189.9,18
 2026-10-23,Epping,epping,England,178.4,176.9,4,201.9,199.9,4
 2026-10-23,Epsom,epsom,England,171.7,169.9,5,200.7,199.9,5
 2026-10-23,Erith,erith,England,174.9,171.9,4,200.2,198.9,4
@@ -33730,7 +33730,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Filey,filey,England,173.2,172.9,3,199.2,198.9,3
 2026-10-23,Fivemiletown,fivemiletown,Northern Ireland,,,,193.9,193.9,1
 2026-10-23,Fleet,fleet,England,176.3,171.9,5,199.7,195.9,5
-2026-10-23,Folkestone,folkestone,England,177.9,175.7,7,200.7,199.7,7
+2026-10-23,Folkestone,folkestone,England,178,175.7,7,200.7,199.7,7
 2026-10-23,Forfar,forfar,Scotland,178.7,175.9,4,204.9,201.9,3
 2026-10-23,Fort William,fort-william,Scotland,177.4,175.9,4,200.7,198.9,4
 2026-10-23,Fraserburgh,fraserburgh,Scotland,173.9,173.9,3,197.9,197.9,3
@@ -33755,7 +33755,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Greenford,greenford,England,174.9,174.9,1,202.2,199.9,3
 2026-10-23,Greenock,greenock,Scotland,171.7,169.9,4,200.7,198.9,4
 2026-10-23,Grimsby,grimsby,England,174.9,169.7,12,196.4,190.7,12
-2026-10-23,Guildford,guildford,England,175.4,172.9,14,202.1,198.9,14
+2026-10-23,Guildford,guildford,England,175.3,171.9,14,202.1,198.9,14
 2026-10-23,Guisborough,guisborough,England,172.6,171.9,3,197.9,197.9,2
 2026-10-23,Hailsham,hailsham,England,176.9,176.9,2,201.6,199.9,3
 2026-10-23,Halifax,halifax,England,174.2,169.9,9,199.8,196.9,10
@@ -33799,15 +33799,15 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Hook,hook,England,174.4,171.9,4,199.4,197.9,4
 2026-10-23,Horley,horley,England,174.1,171.9,5,200.9,198.9,5
 2026-10-23,Hornchurch,hornchurch,England,173.9,172.9,6,200.1,197.9,5
-2026-10-23,Horsham,horsham,England,176.1,172.9,9,200.1,197.9,10
+2026-10-23,Horsham,horsham,England,176,172.9,9,200.1,197.9,10
 2026-10-23,Houghton le Spring,houghton-le-spring,England,167.9,166.7,6,195.4,188.9,6
 2026-10-23,Hounslow,hounslow,England,176,174.9,7,200.9,199.9,6
 2026-10-23,Hove,hove,England,176.1,173.9,5,196.9,192.9,5
 2026-10-23,Huddersfield,huddersfield,England,170.6,165.9,18,197.1,191.9,20
-2026-10-23,Hull,hull,England,174.3,165.6,31,201,194.6,34
+2026-10-23,Hull,hull,England,174,165.6,31,200.7,194.6,34
 2026-10-23,Hungerford,hungerford,England,178.9,177.9,3,199.9,199.9,3
 2026-10-23,Huntingdon,huntingdon,England,175.1,168.9,12,199.6,187.9,12
-2026-10-23,Huntly,huntly,Scotland,177.3,175.7,5,201.1,198.7,4
+2026-10-23,Huntly,huntly,Scotland,176.9,175.7,5,201.1,198.7,4
 2026-10-23,Hyde,hyde,England,172.9,169.9,3,197.6,194.9,3
 2026-10-23,Hythe,hythe,England,176.5,175.7,3,202.2,201.9,3
 2026-10-23,Ilford,ilford,England,173.1,171.8,11,198.4,194.9,12
@@ -33853,7 +33853,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Leamington Spa,leamington-spa,England,176.6,174.7,4,199.1,197.7,4
 2026-10-23,Leatherhead,leatherhead,England,173.2,168.9,3,199.9,195.9,3
 2026-10-23,Ledbury,ledbury,England,176.6,169.9,3,199.9,199.9,3
-2026-10-23,Leeds,leeds,England,171.4,160.9,55,197.2,186.9,51
+2026-10-23,Leeds,leeds,England,171.3,160.9,55,197.2,186.9,51
 2026-10-23,Leek,leek,England,171.9,170.9,4,196.4,194.9,4
 2026-10-23,Leicester,leicester,England,174.2,166.9,35,198.5,191.9,36
 2026-10-23,Leigh,leigh,England,169,167.7,6,191.4,187.7,6
@@ -33862,7 +33862,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Leominster,leominster,England,173.9,173.9,2,201.4,198.9,4
 2026-10-23,Lerwick,lerwick,Scotland,173.7,172.8,3,200.9,199.8,3
 2026-10-23,Letchworth Garden City,letchworth-garden-city,England,174.6,173.9,3,199.9,199.9,3
-2026-10-23,Leven,leven,Scotland,175.5,173.9,5,200.3,199.9,5
+2026-10-23,Leven,leven,Scotland,175.3,172.9,5,200.1,198.9,5
 2026-10-23,Lewes,lewes,England,178,175.9,7,199.5,196.9,5
 2026-10-23,Lewisham,lewisham,England,173.9,172.9,3,199.9,199.9,3
 2026-10-23,Leyton,leyton,England,172.9,169.9,4,199.7,196.9,4
@@ -33872,7 +33872,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Liphook,liphook,England,177.9,173.9,3,203.2,199.9,3
 2026-10-23,Lisburn,lisburn,Northern Ireland,166.5,159.9,14,189.8,183.9,16
 2026-10-23,Littlehampton,littlehampton,England,174.9,173.9,6,199.5,197.9,5
-2026-10-23,Liverpool,liverpool,England,173.3,161.9,57,196.8,183.7,58
+2026-10-23,Liverpool,liverpool,England,173.2,161.9,57,196.7,183.7,58
 2026-10-23,Livingston,livingston,Scotland,176.2,169.9,6,202.9,198.9,5
 2026-10-23,Llandrindod,llandrindod,Wales,177.9,177.9,2,202.2,199.9,3
 2026-10-23,Llandrindod Wells,llandrindod-wells,Wales,177.1,175.9,3,201.1,199.7,3
@@ -33882,7 +33882,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Lockerbie,lockerbie,Scotland,175.8,175.7,2,201.8,201.7,2
 2026-10-23,London,london,England,173.9,166.9,137,199.6,189.9,140
 2026-10-23,Londonderry,londonderry,Northern Ireland,165.3,162.9,8,190.2,187.9,10
-2026-10-23,Loughborough,loughborough,England,175,170.9,8,200.4,196.9,10
+2026-10-23,Loughborough,loughborough,England,174.9,169.9,8,200.4,196.9,10
 2026-10-23,Loughton,loughton,England,176.9,176.9,3,199.9,199.9,3
 2026-10-23,Louth,louth,England,170.7,168.9,4,197.7,195.9,4
 2026-10-23,Lowestoft,lowestoft,England,170.9,168.9,9,197,195.9,9
@@ -33912,7 +33912,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Melton Mowbray,melton-mowbray,England,175.2,172.9,6,198.1,195.9,5
 2026-10-23,Merthyr Tydfil,merthyr-tydfil,Wales,175.6,172.9,3,199.2,197.9,3
 2026-10-23,Middlesborough,middlesborough,England,172.9,170.9,3,199.2,197.9,3
-2026-10-23,Middlesbrough,middlesbrough,England,171.6,168.9,13,198.3,195.9,13
+2026-10-23,Middlesbrough,middlesbrough,England,171.3,168.9,13,198.2,195.9,13
 2026-10-23,Midhurst,midhurst,England,177.6,176.9,3,199.6,198.9,3
 2026-10-23,Milton Keynes,milton-keynes,England,174.6,170.9,23,199.2,195.7,24
 2026-10-23,Minehead,minehead,England,176.2,174.9,3,200.9,199.9,3
@@ -33948,10 +33948,10 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Northampton,northampton,England,176,168.7,24,199.7,197.9,28
 2026-10-23,Northolt,northolt,England,175.4,171.7,4,200.1,196.7,4
 2026-10-23,Northwich,northwich,England,171.9,169.7,9,194,189.7,9
-2026-10-23,Norwich,norwich,England,174.7,168.9,36,200,195.9,38
+2026-10-23,Norwich,norwich,England,174.6,168.9,36,200,195.9,38
 2026-10-23,Nottingham,nottingham,England,171,166.9,53,196.2,188.9,53
 2026-10-23,Nuneaton,nuneaton,England,175.2,172.9,6,200.3,198.9,7
-2026-10-23,Oakham,oakham,England,177.9,175.9,5,200.4,197.9,4
+2026-10-23,Oakham,oakham,England,177.1,174.9,5,199.7,195.9,4
 2026-10-23,Oban,oban,Scotland,171.7,170.9,5,199.9,196.9,5
 2026-10-23,Okehampton,okehampton,England,172.7,168.9,6,198.7,196.9,4
 2026-10-23,Oldbury,oldbury,England,175.5,173.7,5,199.1,196.7,5
@@ -33965,7 +33965,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Otley,otley,England,178.6,175.9,3,200.7,195.9,4
 2026-10-23,Oxford,oxford,England,176.5,172.9,9,200,194.9,9
 2026-10-23,Paignton,paignton,England,169.4,166.9,4,198.9,197.9,4
-2026-10-23,Paisley,paisley,Scotland,173.9,170.9,9,199.3,196.7,9
+2026-10-23,Paisley,paisley,Scotland,174,171.7,9,199.3,196.7,9
 2026-10-23,Peacehaven,peacehaven,England,173.6,172.9,3,200.9,199.9,3
 2026-10-23,Penrith,penrith,England,175.7,171.9,12,200.4,197.9,13
 2026-10-23,Penryn,penryn,England,171.9,169.9,4,201.6,199.7,4
@@ -33986,10 +33986,10 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Portadown,portadown,Northern Ireland,165.3,163.9,7,188.5,186.9,6
 2026-10-23,Porthmadog,porthmadog,Wales,176.2,174.9,3,202.2,199.9,3
 2026-10-23,Portree,portree,Scotland,194.4,178.9,2,219.4,203.9,2
-2026-10-23,Portsmouth,portsmouth,England,174.2,170.9,13,198.9,195.9,13
+2026-10-23,Portsmouth,portsmouth,England,174.3,170.9,13,198.9,195.9,13
 2026-10-23,Potters Bar,potters-bar,England,172.2,169.9,3,199.2,197.9,3
 2026-10-23,Prescot,prescot,England,174.9,170.9,5,199.1,195.9,5
-2026-10-23,Preston,preston,England,172.7,166.9,32,198.2,192.9,31
+2026-10-23,Preston,preston,England,172.6,165.9,32,198.1,192.9,31
 2026-10-23,Prestwick,prestwick,Scotland,172.2,168.9,3,193.6,189.9,3
 2026-10-23,Pulborough,pulborough,England,175.2,173.9,3,198.9,197.9,3
 2026-10-23,Purley,purley,England,172.6,170.9,3,199.9,197.9,3
@@ -34011,10 +34011,10 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Ripon,ripon,England,172.3,167.9,4,197.9,195.9,5
 2026-10-23,Rochdale,rochdale,England,172.8,169.9,14,198,195.7,13
 2026-10-23,Rochester,rochester,England,175.3,173.9,10,200.6,198.9,10
-2026-10-23,Romford,romford,England,173.3,171.9,10,199.5,194.9,11
+2026-10-23,Romford,romford,England,173.1,171.6,10,199.5,194.9,11
 2026-10-23,Romsey,romsey,England,174.4,170.9,2,200.6,196.9,3
 2026-10-23,Ross-on-wye,ross-on-wye,England,172.6,169.9,6,198.4,196.9,6
-2026-10-23,Rossendale,rossendale,England,166.9,164.9,7,197.7,190.9,6
+2026-10-23,Rossendale,rossendale,England,166.6,164.9,7,197.6,190.9,6
 2026-10-23,Rotherham,rotherham,England,173.5,168.9,21,198.5,194.9,21
 2026-10-23,Royston,royston,England,172.9,171.9,3,199.4,197.9,4
 2026-10-23,Rugby,rugby,England,172.3,168.9,11,198.1,195.9,13
@@ -34026,7 +34026,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Saffron Walden,saffron-walden,England,178.4,177.9,2,201.4,199.9,2
 2026-10-23,Sale,sale,England,176.9,175.9,3,200.9,199.9,3
 2026-10-23,Salford,salford,England,172.6,169.9,10,199.5,194.9,9
-2026-10-23,Salisbury,salisbury,England,173.2,169.9,19,197.6,193.9,18
+2026-10-23,Salisbury,salisbury,England,173.2,169.9,19,197.7,193.9,18
 2026-10-23,Saltash,saltash,England,177.9,169.9,3,204.2,191.9,4
 2026-10-23,Saltburn-by-the-sea,saltburn-by-the-sea,England,173.3,172.7,2,197.8,197.7,2
 2026-10-23,Sandwich,sandwich,England,173.2,171.9,3,197.6,196.9,3
@@ -34039,7 +34039,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Selby,selby,England,171.4,170.9,4,198.4,197.9,4
 2026-10-23,Sevenoaks,sevenoaks,England,177,174.9,8,202.8,199.9,8
 2026-10-23,Shaftesbury,shaftesbury,England,173.9,172.9,3,199.2,198.9,3
-2026-10-23,Sheffield,sheffield,England,173.4,169.7,40,197.8,189.7,37
+2026-10-23,Sheffield,sheffield,England,173.3,169.7,40,197.8,189.7,37
 2026-10-23,Shefford,shefford,England,175.6,174.9,3,199.2,198.9,3
 2026-10-23,Shepton Mallet,shepton-mallet,England,174.9,173.9,2,201.4,199.9,2
 2026-10-23,Shetland,shetland,Scotland,175.9,172.8,7,202.6,199.8,13
@@ -34049,13 +34049,13 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Shrewsbury,shrewsbury,England,173.7,162.9,15,198.1,191.9,15
 2026-10-23,Sidcup,sidcup,England,175.1,172.9,5,199.7,196.9,5
 2026-10-23,Sittingbourne,sittingbourne,England,175.7,173.9,8,201.1,198.7,9
-2026-10-23,Skegness,skegness,England,172.6,169.9,5,198.2,196.9,5
+2026-10-23,Skegness,skegness,England,172.4,169.9,6,198.5,196.9,6
 2026-10-23,Skelmersdale,skelmersdale,England,174.6,171.9,3,197.9,194.9,4
 2026-10-23,Skipton,skipton,England,172.2,171.9,3,198.6,197.9,3
 2026-10-23,Sleaford,sleaford,England,176.9,174.9,3,199.7,198.9,4
 2026-10-23,Slough,slough,England,175,171.9,15,200.4,195.9,13
 2026-10-23,Smethwick,smethwick,England,175.4,174.9,3,191.6,174.9,3
-2026-10-23,Solihull,solihull,England,174.8,170.9,12,201.1,198.9,12
+2026-10-23,Solihull,solihull,England,174.8,170.9,12,201,197.9,12
 2026-10-23,South Croydon,south-croydon,England,174.6,172.9,3,199.9,199.9,3
 2026-10-23,South Molton,south-molton,England,176.4,175.9,2,199.6,198.9,3
 2026-10-23,South Queensferry,south-queensferry,Scotland,178.2,175.9,3,202.2,199.9,3
@@ -34066,7 +34066,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Southend-on-sea,southend-on-sea,England,172.6,168.9,6,200.2,198.9,6
 2026-10-23,Southport,southport,England,171.8,169.9,11,198,193.9,11
 2026-10-23,Southsea,southsea,England,175.9,171.9,3,199.9,195.9,2
-2026-10-23,Spalding,spalding,England,174.4,170.9,7,200.3,196.9,9
+2026-10-23,Spalding,spalding,England,174,170.9,7,200.3,196.9,9
 2026-10-23,St Albans,st-albans,England,176.3,168.9,17,200.2,196.9,16
 2026-10-23,St Austell,st-austell,England,176.9,175.9,6,198.9,196.9,7
 2026-10-23,St Helens,st-helens,England,170.8,164.9,12,196.5,187.9,13
@@ -34101,7 +34101,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Sutton,sutton,England,172.7,169.9,6,200.4,198.9,6
 2026-10-23,Sutton Coldfield,sutton-coldfield,England,175,169.7,10,200.1,195.7,10
 2026-10-23,Sutton-in-ashfield,sutton-in-ashfield,England,170.5,169.9,3,198.2,196.7,3
-2026-10-23,Swadlincote,swadlincote,England,173.7,167.9,6,198.2,193.7,6
+2026-10-23,Swadlincote,swadlincote,England,173.6,166.9,6,198.2,193.7,6
 2026-10-23,Swaffham,swaffham,England,175.9,175.9,4,198.4,197.9,4
 2026-10-23,Swanage,swanage,England,174.9,172.9,3,198.9,198.9,3
 2026-10-23,Swansea,swansea,Wales,173.3,167.9,18,198.8,196.7,20
@@ -34190,7 +34190,7 @@ date,town,town_slug,nation,unleaded_avg_ppl,unleaded_min_ppl,unleaded_stations,d
 2026-10-23,Witney,witney,England,175.5,173.9,7,201.2,198.9,7
 2026-10-23,Woking,woking,England,174.4,169.9,10,199.9,197.9,10
 2026-10-23,Wokingham,wokingham,England,178.7,175.9,6,203.1,198.9,5
-2026-10-23,Wolverhampton,wolverhampton,England,173.6,166.6,23,197.5,190.6,24
+2026-10-23,Wolverhampton,wolverhampton,England,173.5,166.6,23,197.4,190.6,24
 2026-10-23,Woodbridge,woodbridge,England,176.7,173.7,6,200.2,198.7,5
 2026-10-23,Woodford Green,woodford-green,England,171.7,169.9,5,200.1,197.9,5
 2026-10-23,Woodhall Spa,woodhall-spa,England,174.9,174.9,1,199.9,199.9,2

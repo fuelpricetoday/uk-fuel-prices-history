@@ -57,7 +57,7 @@
       "path": "data/towns-daily.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 2301385,
+      "bytes": 2301386,
       "schema": {
         "fields": [
           {
@@ -108,7 +108,7 @@
       "path": "data/stations.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 2866163,
+      "bytes": 3328993,
       "schema": {
         "fields": [
           {
@@ -129,7 +129,7 @@
           },
           {
             "name": "address",
-            "description": "Address as reported."
+            "description": "Address lines as reported, with consistent capitalisation."
           },
           {
             "name": "town",
@@ -190,6 +190,81 @@
           {
             "name": "page_url",
             "description": "The station's page on this site."
+          },
+          {
+            "name": "fuels",
+            "description": "Fuel grades the station declares it sells, separated by semicolons (E10, E5, B7_STANDARD, B7_PREMIUM, B10, HVO). A grade missing here proves nothing."
+          },
+          {
+            "name": "opening_hours",
+            "description": "Opening hours in OpenStreetMap opening_hours syntax, converted from the feed. Blank when any day is not reported."
+          },
+          {
+            "name": "phone",
+            "description": "Public phone number, as reported."
+          },
+          {
+            "name": "coordinates_fix",
+            "description": "Blank when the position is as reported. swapped: latitude and longitude were inverted; longitude_sign: the sign was lost; both were corrected because only the corrected point falls in the UK. outside_uk: left as reported, and wrong."
+          }
+        ]
+      }
+    },
+    {
+      "name": "stations-changes",
+      "path": "data/stations-changes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 25384,
+      "schema": {
+        "fields": [
+          {
+            "name": "change",
+            "description": "arrival (first price reported), departure (no price for 7 days or more) or return (reporting again after such a gap)."
+          },
+          {
+            "name": "date",
+            "description": "Arrival: first day with a price. Departure: last day with a price. Return: day it came back."
+          },
+          {
+            "name": "node_id",
+            "description": "Fuel Finder identifier, as in stations.csv."
+          },
+          {
+            "name": "name",
+            "description": "Station name."
+          },
+          {
+            "name": "brand",
+            "description": "Brand, one spelling per brand. Blank for independents."
+          },
+          {
+            "name": "town",
+            "description": "Town as shown on this site."
+          },
+          {
+            "name": "postcode",
+            "description": "Full postcode."
+          },
+          {
+            "name": "nation",
+            "description": "England, Scotland, Wales or Northern Ireland."
+          },
+          {
+            "name": "days",
+            "description": "Departure: days since the last price. Return: length of the absence, in days."
+          },
+          {
+            "name": "permanently_closed_on",
+            "description": "Departure: the date the feed gives for a permanent closure, when it gives one."
+          },
+          {
+            "name": "temporarily_closed",
+            "description": "Departure: 1 if the feed marked the station temporarily closed the last time we saw it."
+          },
+          {
+            "name": "page_url",
+            "description": "The station's page on this site, while it is in the feed."
           }
         ]
       }

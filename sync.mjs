@@ -74,7 +74,8 @@ const table = [
   "|---|---:|---:|---|",
   ...kept.map((f) => `| [\`${f.nom}\`](data/${f.nom}) | ${fmt(f.lignes)} | ${mb(f.octets)} | ${f.du && f.au ? `${f.du} to ${f.au}` : "current"} |`),
 ].join("\n");
-const columns = ["uk-daily.csv", "towns-daily.csv", "stations.csv", "history-YYYY-MM.csv.gz"]
+const columns = ["uk-daily.csv", "towns-daily.csv", "stations.csv", "stations-changes.csv", "history-YYYY-MM.csv.gz"]
+  .filter((name) => dictionary(name).length)
   .map((name) => [`### \`${name}\``, "", "| Column | Meaning |", "|---|---|",
     ...dictionary(name).map(([c, d]) => `| \`${c}\` | ${d} |`)].join("\n"))
   .join("\n\n");
@@ -132,7 +133,8 @@ await writeFile(join(ROOT, "datapackage.json"), `${JSON.stringify(datapackage, n
 const FILES = {
   "uk-daily.csv": "UK average unleaded and diesel price for each day, with the number of stations behind each average and the number of price changes.",
   "towns-daily.csv": "Average and lowest unleaded and diesel price in each town, for each day, with the number of stations behind each figure.",
-  "stations.csv": "Every filling station in the feed: identifier, cleaned name and brand, address, postcode, nation, coordinates, motorway and supermarket flags, services, first and last day seen.",
+  "stations.csv": "Every filling station in the feed: identifier, cleaned name and brand, address, postcode, nation, coordinates, motorway and supermarket flags, services, declared fuels, opening hours in OpenStreetMap syntax, first and last day seen.",
+  "stations-changes.csv": "Every station that joined, left or came back to the feed since collection began, most recent first. A station that stops reporting has not necessarily closed.",
 };
 const describe = (name) => {
   const m = MONTH.exec(name);
