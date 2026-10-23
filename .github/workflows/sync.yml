@@ -1,0 +1,41 @@
+name: sync
+
+on:
+  schedule:
+    # Mondays, after the weekly press bulletin is written on the site.
+    - cron: "40 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: node sync.mjs
+      - name: Commit
+        id: commit
+        run: |
+          git config user.name "fuelpricetoday-bot"
+          git config user.email "contact@fuelpricetoday.co.uk"
+          git add -A
+          git diff --cached --quiet && exit 0
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          git commit -m "Data to $(node -p 'require(\"./datapackage.json\").version')"
+          git push
+      # Optional: set KAGGLE_USERNAME and KAGGLE_KEY in the repository secrets
+      # to push a new Kaggle version with the same files, only when they changed.
+      - name: Kaggle
+        if: ${{ env.KAGGLE_KEY != '' && steps.commit.outputs.changed == 'true' }}
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+        run: |
+          pip install --quiet kaggle
+          kaggle datasets version -p data -m "Data to $(node -p 'require(\"./datapackage.json\").version')"

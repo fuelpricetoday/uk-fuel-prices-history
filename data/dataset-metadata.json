@@ -1,0 +1,215 @@
+{
+  "id": "fuelpricetoday/uk-fuel-prices-history",
+  "title": "UK Fuel Prices by Station, Daily",
+  "subtitle": "Every petrol and diesel price at UK filling stations, from the Fuel Finder feed",
+  "description": "# UK fuel prices by filling station, daily\n\nThe price of petrol and diesel at every filling station in the United Kingdom,\none reading per station, fuel and day, from the government's\n[Fuel Finder](https://www.gov.uk/guidance/access-fuel-price-data) scheme.\n\nSince 2025, [The Motor Fuel Price (Open Data) Regulations 2025](https://www.legislation.gov.uk/uksi/2025/1356/introduction/made)\nrequire every forecourt to report each price change within 30 minutes. The\nofficial feed only shows the current price and keeps no history. These files\nare that history, collected every three hours by\n[fuelpricetoday.co.uk](https://fuelpricetoday.co.uk/data), cleaned, and\npublished under the Open Government Licence.\n\nWhat the cleaning does:\n\n- **Stable identifiers.** `node_id` is the Fuel Finder identifier, the key\n  between the station list and the history files.\n- **One spelling per brand.** Raw brand strings, with their variants and\n  typos, are mapped to the major brands; the raw value is kept in `brand_raw`.\n- **Pence per litre everywhere.** Some retailers type a price in pounds or in\n  tenths of a penny; an implausible price is dropped rather than guessed.\n- **Nation from the postcode.** The feed's own country field is unusable.\n- **Arrivals and departures.** `first_seen` and `last_seen` show when a\n  station entered or left the feed.\n\n## Files\n\nAs of 2026-10-23: 631,357 daily station prices in 1 closed month, 8,143 filling stations, 47 days of UK averages since 2026-09-07.\n\n| File | Rows | Size | Period |\n|---|---:|---:|---|\n| [`uk-daily.csv`](data/uk-daily.csv) | 47 | 2 KB | 2026-09-07 to 2026-10-23 |\n| [`towns-daily.csv`](data/towns-daily.csv) | 34,203 | 2.3 MB | 2026-09-07 to 2026-10-23 |\n| [`stations.csv`](data/stations.csv) | 8,143 | 2.9 MB | current |\n| [`history-2026-09.csv.gz`](data/history-2026-09.csv.gz) | 631,357 | 3.2 MB | 2026-09-07 to 2026-09-30 |\n\nThe current month, updated every three hours, is on [fuelpricetoday.co.uk/data](https://fuelpricetoday.co.uk/data).\n\n## How the averages are calculated\n\nThe averages are the ones drawn on fuelpricetoday.co.uk. They leave out motorway services, which charge their own prices, and prices unchanged for more than 30 days: a price that has not moved is still the price on the pump, since any change must be reported within 30 minutes, but a long silence suggests a station that has stopped reporting. A price more than 25p from the day's median is left out of the average as a reporting error. Each average carries the number of stations behind it.\n\n`price_last_updated` in the history files is when the retailer last **changed** the price, not when it was last confirmed.\n\n## Columns\n\n### `uk-daily.csv`\n\n| Column | Meaning |\n|---|---|\n| `date` | Day of observation, YYYY-MM-DD. |\n| `unleaded_avg_ppl` | Average unleaded (E10) price, pence per litre, one decimal. |\n| `unleaded_stations` | Number of stations behind that average. |\n| `diesel_avg_ppl` | Average diesel (B7) price, pence per litre, one decimal. |\n| `diesel_stations` | Number of stations behind that average. |\n| `price_changes` | Station prices, all fuels and all stations, that differ from the day before. Blank on the first day. |\n\n### `towns-daily.csv`\n\n| Column | Meaning |\n|---|---|\n| `date` | Day of observation, YYYY-MM-DD. |\n| `town` | Town name as shown on this site. |\n| `town_slug` | Identifier of the town, as in /petrol-prices/<town_slug>. |\n| `nation` | England, Scotland, Wales or Northern Ireland. |\n| `unleaded_avg_ppl` | Average unleaded (E10) price in the town, pence per litre. |\n| `unleaded_min_ppl` | Lowest unleaded price at a station in the town that day. |\n| `unleaded_stations` | Number of stations behind the unleaded figures. |\n| `diesel_avg_ppl` | Average diesel (B7) price in the town, pence per litre. |\n| `diesel_min_ppl` | Lowest diesel price at a station in the town that day. |\n| `diesel_stations` | Number of stations behind the diesel figures. |\n\n### `stations.csv`\n\n| Column | Meaning |\n|---|---|\n| `node_id` | Fuel Finder identifier of the station. Stable, and the key into the history files. |\n| `name` | Station name, with consistent capitalisation. |\n| `brand` | Brand, one spelling per brand. Blank for independents. |\n| `brand_raw` | Brand exactly as the retailer reported it. |\n| `address` | Address as reported. |\n| `town` | Town as shown on this site. |\n| `postcode` | Full postcode. |\n| `postcode_district` | Outward code, for example BA1. |\n| `postcode_area` | Postcode area, for example BA. |\n| `nation` | Derived from the postcode, as the feed's own country field is unreliable. |\n| `latitude` | WGS84 latitude. |\n| `longitude` | WGS84 longitude. |\n| `motorway` | 1 for motorway services. |\n| `supermarket` | 1 for a supermarket forecourt. |\n| `members_only` | 1 where only members can buy fuel (Costco). |\n| `services` | Services reported by the station, separated by semicolons. |\n| `temporarily_closed` | 1 if the feed marks the station temporarily closed. |\n| `first_seen` | First day we recorded a price for the station. |\n| `last_seen` | Last day we recorded a price for the station. |\n| `page_url` | The station's page on this site. |\n\n### `history-YYYY-MM.csv.gz`\n\n| Column | Meaning |\n|---|---|\n| `node_id` | Fuel Finder identifier, as in stations.csv. |\n| `fuel` | E10, E5, B7_STANDARD, B7_PREMIUM, B10 or HVO. |\n| `date` | Day of observation, YYYY-MM-DD. One reading per station, fuel and day: the last one we saw. |\n| `price_ppl` | Price in pence per litre. |\n| `price_last_updated` | When the retailer last changed this price, as reported by the feed (UTC). |\n\nContains public sector information licensed under the Open Government Licence v3.0. Data via fuelpricetoday.co.uk.",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ],
+  "keywords": [
+    "energy",
+    "transportation",
+    "time series analysis",
+    "geospatial analysis"
+  ],
+  "resources": [
+    {
+      "path": "uk-daily.csv",
+      "description": "47 rows. Columns are described in the dataset description.",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "description": "Day of observation, YYYY-MM-DD."
+          },
+          {
+            "name": "unleaded_avg_ppl",
+            "description": "Average unleaded (E10) price, pence per litre, one decimal."
+          },
+          {
+            "name": "unleaded_stations",
+            "description": "Number of stations behind that average."
+          },
+          {
+            "name": "diesel_avg_ppl",
+            "description": "Average diesel (B7) price, pence per litre, one decimal."
+          },
+          {
+            "name": "diesel_stations",
+            "description": "Number of stations behind that average."
+          },
+          {
+            "name": "price_changes",
+            "description": "Station prices, all fuels and all stations, that differ from the day before. Blank on the first day."
+          }
+        ]
+      }
+    },
+    {
+      "path": "towns-daily.csv",
+      "description": "34,203 rows. Columns are described in the dataset description.",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "description": "Day of observation, YYYY-MM-DD."
+          },
+          {
+            "name": "town",
+            "description": "Town name as shown on this site."
+          },
+          {
+            "name": "town_slug",
+            "description": "Identifier of the town, as in /petrol-prices/<town_slug>."
+          },
+          {
+            "name": "nation",
+            "description": "England, Scotland, Wales or Northern Ireland."
+          },
+          {
+            "name": "unleaded_avg_ppl",
+            "description": "Average unleaded (E10) price in the town, pence per litre."
+          },
+          {
+            "name": "unleaded_min_ppl",
+            "description": "Lowest unleaded price at a station in the town that day."
+          },
+          {
+            "name": "unleaded_stations",
+            "description": "Number of stations behind the unleaded figures."
+          },
+          {
+            "name": "diesel_avg_ppl",
+            "description": "Average diesel (B7) price in the town, pence per litre."
+          },
+          {
+            "name": "diesel_min_ppl",
+            "description": "Lowest diesel price at a station in the town that day."
+          },
+          {
+            "name": "diesel_stations",
+            "description": "Number of stations behind the diesel figures."
+          }
+        ]
+      }
+    },
+    {
+      "path": "stations.csv",
+      "description": "8,143 rows. Columns are described in the dataset description.",
+      "schema": {
+        "fields": [
+          {
+            "name": "node_id",
+            "description": "Fuel Finder identifier of the station. Stable, and the key into the history files."
+          },
+          {
+            "name": "name",
+            "description": "Station name, with consistent capitalisation."
+          },
+          {
+            "name": "brand",
+            "description": "Brand, one spelling per brand. Blank for independents."
+          },
+          {
+            "name": "brand_raw",
+            "description": "Brand exactly as the retailer reported it."
+          },
+          {
+            "name": "address",
+            "description": "Address as reported."
+          },
+          {
+            "name": "town",
+            "description": "Town as shown on this site."
+          },
+          {
+            "name": "postcode",
+            "description": "Full postcode."
+          },
+          {
+            "name": "postcode_district",
+            "description": "Outward code, for example BA1."
+          },
+          {
+            "name": "postcode_area",
+            "description": "Postcode area, for example BA."
+          },
+          {
+            "name": "nation",
+            "description": "Derived from the postcode, as the feed's own country field is unreliable."
+          },
+          {
+            "name": "latitude",
+            "description": "WGS84 latitude."
+          },
+          {
+            "name": "longitude",
+            "description": "WGS84 longitude."
+          },
+          {
+            "name": "motorway",
+            "description": "1 for motorway services."
+          },
+          {
+            "name": "supermarket",
+            "description": "1 for a supermarket forecourt."
+          },
+          {
+            "name": "members_only",
+            "description": "1 where only members can buy fuel (Costco)."
+          },
+          {
+            "name": "services",
+            "description": "Services reported by the station, separated by semicolons."
+          },
+          {
+            "name": "temporarily_closed",
+            "description": "1 if the feed marks the station temporarily closed."
+          },
+          {
+            "name": "first_seen",
+            "description": "First day we recorded a price for the station."
+          },
+          {
+            "name": "last_seen",
+            "description": "Last day we recorded a price for the station."
+          },
+          {
+            "name": "page_url",
+            "description": "The station's page on this site."
+          }
+        ]
+      }
+    },
+    {
+      "path": "history-2026-09.csv.gz",
+      "description": "631,357 rows. Columns are described in the dataset description.",
+      "schema": {
+        "fields": [
+          {
+            "name": "node_id",
+            "description": "Fuel Finder identifier, as in stations.csv."
+          },
+          {
+            "name": "fuel",
+            "description": "E10, E5, B7_STANDARD, B7_PREMIUM, B10 or HVO."
+          },
+          {
+            "name": "date",
+            "description": "Day of observation, YYYY-MM-DD. One reading per station, fuel and day: the last one we saw."
+          },
+          {
+            "name": "price_ppl",
+            "description": "Price in pence per litre."
+          },
+          {
+            "name": "price_last_updated",
+            "description": "When the retailer last changed this price, as reported by the feed (UTC)."
+          }
+        ]
+      }
+    }
+  ]
+}

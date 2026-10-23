@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and link to https://fuelpricetoday.co.uk/data"
+type: dataset
+title: "UK fuel prices by filling station, daily, from the Fuel Finder feed"
+authors:
+  - name: "Fuel Price Today"
+    website: "https://fuelpricetoday.co.uk"
+    email: "contact@fuelpricetoday.co.uk"
+url: "https://fuelpricetoday.co.uk/data"
+repository: "https://github.com/jackydan/fuelpricetoday"
+license: OGL-UK-3.0
+keywords:
+  - fuel prices
+  - petrol
+  - diesel
+  - United Kingdom
+  - Fuel Finder
+  - open data
