@@ -38,4 +38,9 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
         run: |
           pip install --quiet kaggle
-          kaggle datasets version -p data -m "Data to $(node -p 'require(\"./datapackage.json\").version')"
+          # Kaggle decompresses .gz files and the metadata names them without
+          # the suffix, so the history is uploaded already decompressed.
+          mkdir -p "$RUNNER_TEMP/kaggle"
+          cp data/*.csv data/dataset-metadata.json "$RUNNER_TEMP/kaggle/"
+          for f in data/*.csv.gz; do gunzip -c "$f" > "$RUNNER_TEMP/kaggle/$(basename "$f" .gz)"; done
+          kaggle datasets version -p "$RUNNER_TEMP/kaggle" -m "Data to $(node -p 'require(\"./datapackage.json\").version')"
