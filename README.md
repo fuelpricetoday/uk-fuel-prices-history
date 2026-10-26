@@ -26,14 +26,14 @@ What the cleaning does:
 ## Files
 
 <!-- generated:start -->
-As of 2026-10-23: 631,357 daily station prices in 1 closed month, 8,143 filling stations, 47 days of UK averages since 2026-09-07.
+As of 2026-10-26: 631,357 daily station prices in 1 closed month, 8,146 filling stations, 50 days of UK averages since 2026-09-07.
 
 | File | Rows | Size | Period |
 |---|---:|---:|---|
-| [`uk-daily.csv`](data/uk-daily.csv) | 47 | 2 KB | 2026-09-07 to 2026-10-23 |
-| [`towns-daily.csv`](data/towns-daily.csv) | 34,203 | 2.3 MB | 2026-09-07 to 2026-10-23 |
-| [`stations.csv`](data/stations.csv) | 8,143 | 3.3 MB | current |
-| [`stations-changes.csv`](data/stations-changes.csv) | 123 | 25 KB | 2026-09-07 to 2026-10-23 |
+| [`uk-daily.csv`](data/uk-daily.csv) | 50 | 2 KB | 2026-09-07 to 2026-10-26 |
+| [`towns-daily.csv`](data/towns-daily.csv) | 36,445 | 2.5 MB | 2026-09-07 to 2026-10-26 |
+| [`stations.csv`](data/stations.csv) | 8,146 | 3.3 MB | current |
+| [`stations-changes.csv`](data/stations-changes.csv) | 126 | 26 KB | 2026-09-07 to 2026-10-26 |
 | [`history-2026-09.csv.gz`](data/history-2026-09.csv.gz) | 631,357 | 3.2 MB | 2026-09-07 to 2026-09-30 |
 
 The current month, updated every three hours, is on [fuelpricetoday.co.uk/data](https://fuelpricetoday.co.uk/data).

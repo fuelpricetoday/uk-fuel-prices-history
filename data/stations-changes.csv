@@ -1,4 +1,7 @@
 change,date,node_id,name,brand,town,postcode,nation,days,permanently_closed_on,temporarily_closed,page_url
+arrival,2026-10-24,ba886c2fe19cbbb18dafa32a071fd54172bbfac87b8b9a98fc559a048b7db46d,Gulf Service Station,GULF,Stoke-on-trent,ST4 3DB,England,,,,https://fuelpricetoday.co.uk/station/gulf-service-station-st4-3db
+arrival,2026-10-23,90699a6b09762532f021df61ab94fadc84a7b415ac2153ef1c083186a9a3bccb,Gilwern Garage,GULF,Y Fenni,NP7 0DF,Wales,,,,https://fuelpricetoday.co.uk/station/gilwern-garage-np7-0df-90699a
+arrival,2026-10-23,b727dd638686befcaf32be22b62b9fdfa460b1746eb131f169b7de7622a3b876,Murco Costcutter,MURCO,Rye,TN31 7LP,England,,,,https://fuelpricetoday.co.uk/station/murco-costcutter-tn31-7lp
 arrival,2026-10-22,9c4e264dd50b5fcd63609d98eeef4be1ccd5ed683d6b2177035147f4e5298cd7,Marions Shop And Filling Station,,Orkney,KW17 2PR,Scotland,,,,https://fuelpricetoday.co.uk/station/marions-shop-and-filling-station-kw17-2pr-9c4e26
 arrival,2026-10-22,b0fc8488e3d5b22f36cb89a75c0277a875dd87f2327e036f66ed67f5f932207f,Tower Garage,MURCO,Cannock,WS12 4LL,England,,,,https://fuelpricetoday.co.uk/station/tower-garage-ws12-4ll
 arrival,2026-10-20,5302cd9ff26d6daf476abfd624f88480305c850dac065936c9f5277fca42938c,Jet Great Houghton,JET,Barnsley,S72 0DB,England,,,,https://fuelpricetoday.co.uk/station/jet-great-houghton-s72-0db
@@ -10,23 +13,23 @@ arrival,2026-10-13,bc036620161db0b4e46183c1a33d520ca89d8e7e737e19ca818550e5dac92
 arrival,2026-10-12,03e3211acd7a986e9f61f793517a2e96dfe2d7fcb181ae3027c1711ee85c5db2,Coll Community Fuel Supplies Ltd,,Arinagour,PA78 6SY,Scotland,,,,https://fuelpricetoday.co.uk/station/coll-community-fuel-supplies-ltd-pa78-6sy
 arrival,2026-10-12,613eb507f947e843b7474620e099da35200e1e1005970fe3e51f9ba86fed9486,Gotherington Cross Service Station,MURCO,,GL52 8SA,England,,,,https://fuelpricetoday.co.uk/station/gotherington-cross-service-station-gl52-8sa
 arrival,2026-10-12,bf808d9dd8cff7c54b4628fd9071ac0c8c50cf74367560f44916c82c8259b9c2,Clarke's Fuel Station,CIRCLE K,Enniskillen,BT92 9HW,Northern Ireland,,,,https://fuelpricetoday.co.uk/station/clarke-s-fuel-station-bt92-9hw
-departure,2026-10-12,9f4ef385b861d14f5d463d5b3bfee18cd0c76fecd3341cddc3d848aa81d5d004,Springtown Fuels,,Londonderry,BT48 7SE,Northern Ireland,11,,0,
+departure,2026-10-12,9f4ef385b861d14f5d463d5b3bfee18cd0c76fecd3341cddc3d848aa81d5d004,Springtown Fuels,,Londonderry,BT48 7SE,Northern Ireland,14,,0,
 arrival,2026-10-08,a457e8f05fd3b83e0fface7b9d3de91f99c66cf886be1d8a49d3378b78c21fc2,Welford Garage,MURCO,Stratford-upon-avon,CV37 8PT,England,,,,https://fuelpricetoday.co.uk/station/welford-garage-cv37-8pt
-departure,2026-10-08,80879cdaacf4b2c0fec7712e746da2492457342bd1b500506de812d50970be44,Crossburn Filling Station,ESSO,Peebles,EH45 8ED,Scotland,15,,0,
-departure,2026-10-08,9041c4482e991d0f62be45fd856a7940b3852755b981a6e66ba51bfc05ee2890,Tarleton Service Station,,Preston,PR4 6UD,England,15,,0,
+departure,2026-10-08,80879cdaacf4b2c0fec7712e746da2492457342bd1b500506de812d50970be44,Crossburn Filling Station,ESSO,Peebles,EH45 8ED,Scotland,18,,0,
+departure,2026-10-08,9041c4482e991d0f62be45fd856a7940b3852755b981a6e66ba51bfc05ee2890,Tarleton Service Station,,Preston,PR4 6UD,England,18,,0,
 arrival,2026-10-07,1f4f1c444688f2dce0dde885b01ac024cb7c8d0ec57a1d2ed5d01fdd3bf7b717,Central Garage,,Kiveton Park,S26 6RD,England,,,,https://fuelpricetoday.co.uk/station/central-garage-s26-6rd
 arrival,2026-10-07,3ec181c972934db57ab596dd13b4694ce098f052a7f25a31f9bc02a16cffbddf,Preseli Service Station,MURCO,Narberth,SA67 7PD,Wales,,,,https://fuelpricetoday.co.uk/station/preseli-service-station-sa67-7pd
 arrival,2026-10-07,572b937b21afd44a71899a14fb3be0f1a6f8fc0dbbdf4f3572f17f43b46886f6,Bell Lane Service Station,SHELL,Bury,BL9 6HH,England,,,,https://fuelpricetoday.co.uk/station/bell-lane-service-station-bl9-6hh
 arrival,2026-10-07,cbfe5ade376662b507c624136de8945abe0a973c60d59589ff17ec81812be295,Isbister Bros Limited,,Stromness,KW16 3LT,Scotland,,,,https://fuelpricetoday.co.uk/station/isbister-bros-limited-kw16-3lt
-departure,2026-10-07,670785d65e3fe5768b5dad2e56910103fdff24f1d565b0ce76632c3227ce938c,Preseli Service Station Limited,,Narberth,SA67 7PD,Wales,16,,0,
+departure,2026-10-07,670785d65e3fe5768b5dad2e56910103fdff24f1d565b0ce76632c3227ce938c,Preseli Service Station Limited,,Narberth,SA67 7PD,Wales,19,,0,
 arrival,2026-10-06,3f76b4e8f1766a2cd6db5890544b6b8d9be0c2d8c73b02ae8b98750657645394,Aberlour Filling Station,GULF,Aberlour,AB38 9PB,Scotland,,,,https://fuelpricetoday.co.uk/station/aberlour-filling-station-ab38-9pb
 arrival,2026-10-06,9a2c13fdf81838558686dac045e1f199b89850bff2ce34d15bd7ef9333a5702a,Atholl Filling Station,GULF,Isle of Skye,IV55 8WA,Scotland,,,,https://fuelpricetoday.co.uk/station/atholl-filling-station-iv55-8wa
 arrival,2026-10-06,a290a772d830fae5d153e1ae33d9e91bc154b15ad2d35bc3f65d6fe4571f864e,Go Bowring,GO,Liverpool,L14 3PA,England,,,,https://fuelpricetoday.co.uk/station/go-bowring-l14-3pa
 arrival,2026-10-06,b863dbb5fda8f67367ebc684568a15ba1133276664f8051d28a8efe9d6c6df4d,Mcc,,Ballycastle,BT54 6QY,Northern Ireland,,,,https://fuelpricetoday.co.uk/station/mcc-bt54-6qy
 arrival,2026-10-06,b95fc4e5ef6f358b2da088e79546433264004df5d762fa23d370ccbf68b40b44,Garswood,TEXACO,Wigan,WN4 0TU,England,,,,https://fuelpricetoday.co.uk/station/garswood-wn4-0tu
-departure,2026-10-06,3871accd30cf5e94bc53a95853ddebf4deeb8643952f30b900a9f7ef5924db21,Meldrum Motors Ltd,GLEANER,Oldmeldrum Inverurie,AB51 0EX,Scotland,17,,0,
+departure,2026-10-06,3871accd30cf5e94bc53a95853ddebf4deeb8643952f30b900a9f7ef5924db21,Meldrum Motors Ltd,GLEANER,Oldmeldrum Inverurie,AB51 0EX,Scotland,20,,0,
 arrival,2026-10-05,5981d0a8ef630907ef706b1c78b5115b60c633ae9760600027afdd841d714292,Braemar Filling Station,GLEANER,Aberdeenshire,AB35 5YQ,Scotland,,,,https://fuelpricetoday.co.uk/station/braemar-filling-station-ab35-5yq
-departure,2026-10-05,d2f5be2f7626be19de98c05b36917358454cfdbfc403cb0a220c3970caf9e78e,Braemar Filling Station,GLEANER,Aberdeenshire,AB35 5YQ,Scotland,18,,0,
+departure,2026-10-05,d2f5be2f7626be19de98c05b36917358454cfdbfc403cb0a220c3970caf9e78e,Braemar Filling Station,GLEANER,Aberdeenshire,AB35 5YQ,Scotland,21,,0,
 arrival,2026-10-03,bc1401a102401dcf538dc202b3d3c8c1983ae974a6c4ad410948826dc1da03b1,Oldmeldrum Filling Station,JET,Inverurie,AB51 0EX,Scotland,,,,https://fuelpricetoday.co.uk/station/oldmeldrum-filling-station-ab51-0ex
 arrival,2026-10-01,0aa8ed82261f4409577edb5cf51749d63261c22b4caa75fe92f29088684740f1,Shell Erskine,SHELL,Erskine,PA8 6EY,Scotland,,,,https://fuelpricetoday.co.uk/station/shell-erskine-pa8-6ey
 arrival,2026-10-01,0c4516564c308236801710b4955c3183e20ed7ec49540ed32739a971f82c81a2,Global Fuel - Whiteway,TEXACO,Bristol,BS5 7LT,England,,,,https://fuelpricetoday.co.uk/station/global-fuel-whiteway-bs5-7lt
@@ -62,7 +65,7 @@ return,2026-10-01,dc35f020a29c70db95a1c35e3f2588d86e819d1e2f4b9adf1e25e84e07114b
 return,2026-10-01,e5c368cd631fd4efa1c4dc804829dfb1798ff5901cf4675f69bbef726eede073,Rontec Broadfield,ESSO,Crawley,RH11 9SH,England,21,,,https://fuelpricetoday.co.uk/station/rontec-broadfield-rh11-9sh
 return,2026-10-01,ec6d5232035b5fb616df3b037cd1ff377e4a4f4d2899048ed4695459998f96b7,Ascona Morley Service Station,,Pomphlett,PL9 7HP,England,9,,,https://fuelpricetoday.co.uk/station/ascona-morley-service-station-pl9-7hp
 arrival,2026-09-30,d5481111620ffb8c5c72c584e7d734b2096fde16857f920785b2d6eac678dd50,Shell Elstree Way,SHELL,Borehamwood,WD6 1LB,England,,,,https://fuelpricetoday.co.uk/station/shell-elstree-way-wd6-1lb
-departure,2026-09-29,ebeda4be9d5bf942a4711d6a076bad27461c30c993475deee252f5595ebda761,Bsb Motors,,Normanton,WF6 2AY,England,24,,0,
+departure,2026-09-29,ebeda4be9d5bf942a4711d6a076bad27461c30c993475deee252f5595ebda761,Bsb Motors,,Normanton,WF6 2AY,England,27,,0,
 arrival,2026-09-28,56fba11cfe47f8586410baa522d1757b676d1a59e35b388503d9e64882090cfb,Donnellys of Rathkenny,MAXOL,Rathkenny,BT43 6QE,Northern Ireland,,,,https://fuelpricetoday.co.uk/station/donnellys-of-rathkenny-bt43-6qe
 arrival,2026-09-28,c2acd5156484544f92a4d6ded492685e66097a78dfd782452f14e926f677b711,Mfg Pershore,VALERO,Birmingham,B29 7HQ,England,,,,https://fuelpricetoday.co.uk/station/mfg-pershore-b29-7hq
 return,2026-09-28,cd80fb7f3b1c3d7d4cbeffe5973a27f2a5af60b63614088068e449e32a3ccc8d,Kilbirnie Superstore - Petrol Filling Station,TESCO,Kilbirnie,KA25 7DJ,Scotland,11,,,https://fuelpricetoday.co.uk/station/kilbirnie-superstore-petrol-filling-station-ka25-7dj
@@ -84,12 +87,12 @@ arrival,2026-09-22,48ffee67369920a7844e2cca2977db0f09a4a4488841498967a8916492b9c
 return,2026-09-22,c09f08c96b312db7265efee8cd1124e785e5d1f84f47cffd023c839c3eaad1a3,Aylesbury Extra - Petrol Filling Station,TESCO,Aylesbury,HP19 8BU,England,12,,,https://fuelpricetoday.co.uk/station/aylesbury-extra-petrol-filling-station-hp19-8bu
 arrival,2026-09-18,af2780363296b996295f8a959c82749db694574774d442c90368a2355b8d3d4a,Worksop Gateford Rd Superstore - Petrol Filling Station,TESCO,Worksop,S81 7AP,England,,,,https://fuelpricetoday.co.uk/station/worksop-gateford-rd-superstore-petrol-filling-s81-7ap
 arrival,2026-09-18,e41e269a29d87f5b66e2bda2260208a551a0f8cd1e476932ee16f2aec6c949b3,Pelham Road Service Station,VALERO,Gravesend,DA11 8QR,England,,,,https://fuelpricetoday.co.uk/station/pelham-road-service-station-da11-8qr
-departure,2026-09-18,14b0c35016a2e3dafab3edb50ea0f239955932e6ce15224d6f062d9106d63e70,Evergreen Garage Crowfield Ltd,MURCO,Ipswich,IP6 9TB,England,35,,0,
+departure,2026-09-18,14b0c35016a2e3dafab3edb50ea0f239955932e6ce15224d6f062d9106d63e70,Evergreen Garage Crowfield Ltd,MURCO,Ipswich,IP6 9TB,England,38,,0,
 arrival,2026-09-17,9b47e3dee60865d6c90510861148c684cd1a6e546c33f79d436dc7b9fa539593,Britannia Service Station Ltd,TEXACO,Colchester,CO2 7EU,England,,,,https://fuelpricetoday.co.uk/station/britannia-service-station-ltd-co2-7eu
 arrival,2026-09-17,ab91944834048216d3ec07a0b4b045fe5f0df542d3f30df0cf073a68db86998c,Garlieston Filling Station,,Newton Stewart,DG8 8AA,Scotland,,,,https://fuelpricetoday.co.uk/station/garlieston-filling-station-dg8-8aa
 arrival,2026-09-17,d875fd18f722869888383d9b82c08f85cc2daa85ec398ab67ff2745edb6b6101,Taunton E Reach Esso Express,ESSO,Taunton,TA1 3ES,England,,,,https://fuelpricetoday.co.uk/station/taunton-e-reach-esso-express-ta1-3es
 arrival,2026-09-17,f46c1ad0ebb1454f4e47a5c351844d4c07038cd35c9353d633916317c83a40e3,Papay Community Cooperative,,Orkney,KW17 2BU,Scotland,,,,https://fuelpricetoday.co.uk/station/papay-community-cooperative-kw17-2bu
-departure,2026-09-17,3b1a18aec2249105169af67f6163e8de55569e138e5a085bee08902de8024c04,Crakehall Service Station,ESSO,Bedale,DL8 1HD,England,36,,0,
+departure,2026-09-17,3b1a18aec2249105169af67f6163e8de55569e138e5a085bee08902de8024c04,Crakehall Service Station,ESSO,Bedale,DL8 1HD,England,39,,0,
 arrival,2026-09-16,1ca84efeda83bb97e0c8380a5f9e4522f594d170db1c35db61748d19c5c34558,Mcgleenans Centra,,Armagh,BT60 3EW,Northern Ireland,,,,https://fuelpricetoday.co.uk/station/mcgleenans-centra-bt60-3ew
 arrival,2026-09-16,281f195504544d0af2166924d7f46a698458013853ae2f5d0b2eb4e74b0bbda6,Hillview Service Station,VALERO,Antrim,BT41 2EB,Northern Ireland,,,,https://fuelpricetoday.co.uk/station/hillview-service-station-bt41-2eb
 arrival,2026-09-16,2f20f52c7103432d6597bf675ae665f9a60a4d0345cfbf5d2d5bd102dc5cdd90,Craven Park Station,VALERO,London,NW10 9PX,England,,,,https://fuelpricetoday.co.uk/station/craven-park-station-nw10-9px
@@ -103,8 +106,8 @@ arrival,2026-09-14,32587b53d64841b9d00d5088a2b34d877bab49d862af1754616c34bebbc58
 arrival,2026-09-14,604db8d0282e24552ec7b1b5cfb648ee77b4ba70db857275c4a865f32b4b9e3f,Hempstead Service Station,GULF,,HP1 2RQ,England,,,,https://fuelpricetoday.co.uk/station/hempstead-service-station-hp1-2rq
 arrival,2026-09-14,cbac6d60ffd03ef07c895a60ce7848b3321b73f03cfefaf463cafaf632ec6471,Rhymney Service Station,GULF,Tredegar,NP22 5NU,Wales,,,,https://fuelpricetoday.co.uk/station/rhymney-service-station-np22-5nu
 arrival,2026-09-14,f561ee312030b65afe10c3efd5ef5590b8a6683b0f9c9cdc27438ccb68dc134e,Aitken Walker Cars,JET,Duns,TD11 3LR,Scotland,,,,https://fuelpricetoday.co.uk/station/aitken-walker-cars-td11-3lr
-departure,2026-09-14,9fc21d8db0cd55e766badcd0e8f7d905523d66363e29bd93eaa9a62b0ccd44ae,Robert Davies Motors,,Aberteifi,SA43 1RQ,Wales,39,,0,
-departure,2026-09-14,f978873122a82488ae5a44c799b8f6941b6cd6095f75c7518486e5794222c340,Robert Davies Motors,GULF,Cardigan,SA43 2NR,Wales,39,,0,
+departure,2026-09-14,9fc21d8db0cd55e766badcd0e8f7d905523d66363e29bd93eaa9a62b0ccd44ae,Robert Davies Motors,,Aberteifi,SA43 1RQ,Wales,42,,0,
+departure,2026-09-14,f978873122a82488ae5a44c799b8f6941b6cd6095f75c7518486e5794222c340,Robert Davies Motors,GULF,Cardigan,SA43 2NR,Wales,42,,0,
 arrival,2026-09-13,4cb255b36c18e9c6e3635f0d8557e2306597602854d57f8bb1096c79b0b679b5,Shillingstone Service Sation,TEXACO,Shillingstone,DT11 0SF,England,,,,https://fuelpricetoday.co.uk/station/shillingstone-service-sation-dt11-0sf
 arrival,2026-09-12,4d661071026687e44f25289fc565f2df7fcce954dd358b6f80f9d89d6e7adc77,Bp Molesey Road Service Station,BP,Walton-on-thames,KT12 3PW,England,,,,https://fuelpricetoday.co.uk/station/bp-molesey-road-service-station-kt12-3pw
 arrival,2026-09-12,e95e970853c2c381e1a3e93da54f2de4b798cfd48cdb9bb67366432c0376cd34,Parc Service Station,,Corwen,LL21 9EP,Wales,,,,https://fuelpricetoday.co.uk/station/parc-service-station-ll21-9ep
@@ -121,4 +124,4 @@ arrival,2026-09-09,69c7f6c641b20e19c1722a6fda17db02e2f0c754e64c2c0cf814d7791330b
 arrival,2026-09-08,20a0f3ac5c5724fa17e4150d198bfaa2d9280e90e293dfae86b1d010b1b63351,Charlemont Filling Station,SOLO,Dungannon,BT71 7SF,Northern Ireland,,,,https://fuelpricetoday.co.uk/station/charlemont-filling-station-bt71-7sf
 arrival,2026-09-08,476ce0672b1b4ff91ec58b4b451889461875b06ff315ce5a506da968989b1f89,Penparc Service Station,GULF,Cardigan,SA43 1RQ,Wales,,,,https://fuelpricetoday.co.uk/station/penparc-service-station-sa43-1rq
 arrival,2026-09-08,aa88db45c0e418cfb70a810395690180e7b9bdc6afa5a342abcdb859181fddc7,Llechryd Service Station,GULF,Cardigan,SA43 2NR,Wales,,,,https://fuelpricetoday.co.uk/station/llechryd-service-station-sa43-2nr
-departure,2026-09-08,85b45d95263a448a8ba53f49a650dc579b08c3dc22aeec0bec862f8158fcc070,W Livingstone Ltd,GULF,Glasgow,G71 6BS,Scotland,45,,0,
+departure,2026-09-08,85b45d95263a448a8ba53f49a650dc579b08c3dc22aeec0bec862f8158fcc070,W Livingstone Ltd,GULF,Glasgow,G71 6BS,Scotland,48,,0,
