@@ -2,7 +2,7 @@
   "name": "uk-fuel-prices-history",
   "title": "UK fuel prices by filling station, daily",
   "homepage": "https://fuelpricetoday.co.uk/data",
-  "version": "2026-10-26",
+  "version": "2026-11-02",
   "licenses": [
     {
       "name": "OGL-UK-3.0",
@@ -22,7 +22,7 @@
       "path": "data/uk-daily.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 1951,
+      "bytes": 2210,
       "schema": {
         "fields": [
           {
@@ -57,7 +57,7 @@
       "path": "data/towns-daily.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 2451248,
+      "bytes": 2792736,
       "schema": {
         "fields": [
           {
@@ -108,7 +108,7 @@
       "path": "data/stations.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 3330246,
+      "bytes": 3331263,
       "schema": {
         "fields": [
           {
@@ -215,7 +215,7 @@
       "path": "data/stations-changes.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 25984,
+      "bytes": 26836,
       "schema": {
         "fields": [
           {
@@ -276,6 +276,38 @@
       "mediatype": "text/csv",
       "compression": "gz",
       "bytes": 3208933,
+      "schema": {
+        "fields": [
+          {
+            "name": "node_id",
+            "description": "Fuel Finder identifier, as in stations.csv."
+          },
+          {
+            "name": "fuel",
+            "description": "E10, E5, B7_STANDARD, B7_PREMIUM, B10 or HVO."
+          },
+          {
+            "name": "date",
+            "description": "Day of observation, YYYY-MM-DD. One reading per station, fuel and day: the last one we saw."
+          },
+          {
+            "name": "price_ppl",
+            "description": "Price in pence per litre."
+          },
+          {
+            "name": "price_last_updated",
+            "description": "When the retailer last changed this price, as reported by the feed (UTC)."
+          }
+        ]
+      }
+    },
+    {
+      "name": "history-2026-10",
+      "path": "data/history-2026-10.csv.gz",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "compression": "gz",
+      "bytes": 3132061,
       "schema": {
         "fields": [
           {
