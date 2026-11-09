@@ -2,7 +2,7 @@
   "name": "uk-fuel-prices-history",
   "title": "UK fuel prices by filling station, daily",
   "homepage": "https://fuelpricetoday.co.uk/data",
-  "version": "2026-11-02",
+  "version": "2026-11-09",
   "licenses": [
     {
       "name": "OGL-UK-3.0",
@@ -22,7 +22,7 @@
       "path": "data/uk-daily.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 2210,
+      "bytes": 2471,
       "schema": {
         "fields": [
           {
@@ -57,7 +57,7 @@
       "path": "data/towns-daily.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 2792736,
+      "bytes": 3135102,
       "schema": {
         "fields": [
           {
@@ -108,7 +108,7 @@
       "path": "data/stations.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 3331263,
+      "bytes": 3332130,
       "schema": {
         "fields": [
           {
@@ -215,7 +215,7 @@
       "path": "data/stations-changes.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 26836,
+      "bytes": 27382,
       "schema": {
         "fields": [
           {
