@@ -26,14 +26,14 @@ What the cleaning does:
 ## Files
 
 <!-- generated:start -->
-As of 2026-11-09: 1,453,038 daily station prices in 2 closed months, 8,150 filling stations, 64 days of UK averages since 2026-09-07.
+As of 2026-11-16: 1,453,038 daily station prices in 2 closed months, 8,154 filling stations, 71 days of UK averages since 2026-09-07.
 
 | File | Rows | Size | Period |
 |---|---:|---:|---|
-| [`uk-daily.csv`](data/uk-daily.csv) | 64 | 2 KB | 2026-09-07 to 2026-11-09 |
-| [`towns-daily.csv`](data/towns-daily.csv) | 46,638 | 3.1 MB | 2026-09-07 to 2026-11-09 |
-| [`stations.csv`](data/stations.csv) | 8,150 | 3.3 MB | current |
-| [`stations-changes.csv`](data/stations-changes.csv) | 133 | 27 KB | 2026-09-07 to 2026-11-09 |
+| [`uk-daily.csv`](data/uk-daily.csv) | 71 | 3 KB | 2026-09-07 to 2026-11-16 |
+| [`towns-daily.csv`](data/towns-daily.csv) | 51,817 | 3.5 MB | 2026-09-07 to 2026-11-16 |
+| [`stations.csv`](data/stations.csv) | 8,154 | 3.3 MB | current |
+| [`stations-changes.csv`](data/stations-changes.csv) | 142 | 29 KB | 2026-09-07 to 2026-11-16 |
 | [`history-2026-09.csv.gz`](data/history-2026-09.csv.gz) | 631,357 | 3.2 MB | 2026-09-07 to 2026-09-30 |
 | [`history-2026-10.csv.gz`](data/history-2026-10.csv.gz) | 821,681 | 3.1 MB | 2026-10-01 to 2026-10-31 |
 
